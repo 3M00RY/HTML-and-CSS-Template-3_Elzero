@@ -1219,15 +1219,18 @@ header .mega-menu .links li a i {
   width: fit-content;
   margin: 30px auto 40px;
   padding: 10px 20px;
+  color: var(--main-color);
   border: 2px solid var(--main-color);
   border-radius: 6px;
   font-weight: bold;
   transition: var(--main-transition);
-  color: var(--main-color);
 }
 .pricing-plans .plan a:hover{
   background-color: var(--main-color);
   color: #fff;
+}
+.pricing-plans .plan a:visited {
+  color: var(--main-color);
 }
 /* End Pricing Plans */
 /* Start Top Videos */
