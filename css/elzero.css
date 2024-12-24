@@ -1223,6 +1223,7 @@ header .mega-menu .links li a i {
   border-radius: 6px;
   font-weight: bold;
   transition: var(--main-transition);
+  color: var(--main-color);
 }
 .pricing-plans .plan a:hover{
   background-color: var(--main-color);
